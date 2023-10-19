@@ -97,15 +97,6 @@ class Hangman:
 
 
 def play_game(word_list):
-    """
-    Initialises a Hangman game.
-
-    Parameters:
-    ----------
-    word_list: list
-        List of words to be used in the game
-
-    """
     num_lives = 5
     game = Hangman(word_list, num_lives)
     while True:
@@ -122,4 +113,5 @@ def play_game(word_list):
 if __name__ == '__main__':
     word_list = ['banana', 'mango', 'lychee', 'strawberry', 'grapes']
     play_game(word_list)
+
 
