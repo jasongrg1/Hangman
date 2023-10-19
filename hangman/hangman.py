@@ -2,7 +2,7 @@ import random
 
 class Hangman:
 
-    '''
+    """
     A Hangman Game that asks the user for a letter and checks if it is in the word.
     It starts with a default number of lives and a random word from the word_list.
 
@@ -35,7 +35,7 @@ class Hangman:
         Checks if the letter is in the word.
     ask_letter()
         Asks the user for a letter.
-    '''
+    """
     def __init__(self, word_list, num_lives=5):
 
         self.word = random.choice(word_list)
@@ -50,7 +50,7 @@ class Hangman:
         
     
     def check_guess(self, guess):
-        '''
+        """
         Checks if the letter guessed is in the word.
         If it is, it replaces the '_' in the word_guessed list with the letter.
         If it is not, it reduces the number of lives by 1.
@@ -60,7 +60,7 @@ class Hangman:
         guess: str
             The letter to be checked
 
-        '''
+        """
 
         guess = guess.lower()
         if guess in self.word:
@@ -78,12 +78,12 @@ class Hangman:
 
 
     def ask_for_input(self):
-        '''
+        """
         Asks the user for a letter and checks two things:
         1. If the letter has already been tried
         2. If the character is a single character
         If it passes both checks, it calls the check_letter method.
-        '''
+        """
         while True:
             guess = input("Enter a single letter: ")
             if not len(guess) == 1 and guess.isalpha():
