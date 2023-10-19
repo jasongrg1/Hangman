@@ -28,7 +28,9 @@ python hangman.py
 ## Usage
 
 Run the game by following the steps in Installation.
+
 Choose letters to try guess the mystery word.
+
 There is a limited number of attempts.
 
 ## File Structure
