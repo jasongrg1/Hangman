@@ -111,7 +111,7 @@ def play_game(word_list):
 
 
 if __name__ == '__main__':
-    fruit_list = ['banana', 'mango', 'lychee', 'strawberry', 'grapes']
-    play_game(fruit_list)
+    word_list = ['banana', 'mango', 'lychee', 'strawberry', 'grapes']
+    play_game(word_list)
 
 
