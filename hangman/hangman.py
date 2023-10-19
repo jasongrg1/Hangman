@@ -35,7 +35,9 @@ class Hangman:
         Checks if the letter is in the word.
     ask_letter()
         Asks the user for a letter.
+        
     """
+
     def __init__(self, word_list, num_lives=5):
 
         self.word = random.choice(word_list)
@@ -60,7 +62,6 @@ class Hangman:
             The letter to be checked
 
         """
-
         guess = guess.lower()
         if guess in self.word:
             print (f"Good guess! {guess} is in the word.")
@@ -82,6 +83,7 @@ class Hangman:
         1. If the letter has already been tried
         2. If the character is a single character
         If it passes both checks, it calls the check_letter method.
+
         """
         while True:
             guess = input("Enter a single letter: ")
@@ -115,7 +117,7 @@ def play_game(word_list):
         if game.num_letters > 0:
             game.ask_for_input()
         if game.num_lives != 0 and not game.num_letters > 0:
-            print('Congratulations. You won the game!')
+            print("Congratulations! You won!")
             break
 
 
