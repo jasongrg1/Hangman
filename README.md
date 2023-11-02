@@ -15,6 +15,8 @@ Clone the repository:
 git clone https://github.com/jasongrg1/hangman.git
 ```
 
+## Usage
+
 To play the game after cloning the repository follow these steps:
 
 ```bash
@@ -24,10 +26,6 @@ cd hangman
 ```bash
 python hangman.py
 ```
-
-## Usage
-
-Run the game by following the steps in Installation.
 
 Choose letters to try guess the mystery word.
 
