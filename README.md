@@ -37,11 +37,6 @@ There is a limited number of attempts.
 
 - `hangman/`
   - `hangman.py`
-  - `hangman_Template.py`
-  - `milestone_2.py`
-  - `milestone_3.py`
-  - `milestone_4.py`
-  - `milestone_5.py`
 - `LICENSE.txt`
 - `README.md`
 
